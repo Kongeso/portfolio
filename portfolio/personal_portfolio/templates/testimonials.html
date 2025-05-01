@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="testimonials-section">
+    <div class="container">
+        <h2>Client Feedback</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p>"Delivered a complex project 2 weeks ahead of schedule!"</p>
+                <div class="client-info">
+                    <img src="{% static 'images/client1.png' %}" alt="Client">
+                    <div>
+                        <h4>Jane Doe</h4>
+                        <p>CTO, Tech Corp</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more testimonials -->
+        </div>
+    </div>
+</section>
+{% endblock %}

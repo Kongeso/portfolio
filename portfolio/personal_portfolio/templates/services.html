@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="services-section">
+    <div class="container">
+        <h2>My Services</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Custom Django/React applications from concept to deployment</p>
+            </div>
+            <div class="service-card">
+                <h3>API Development</h3>
+                <p>RESTful APIs and third-party integrations</p>
+            </div>
+            <div class="service-card">
+                <h3>Cloud Solutions</h3>
+                <p>AWS/GCP infrastructure setup and optimization</p>
+            </div>
+        </div>
+
+        <div class="pricing">
+            <h3>Pricing Packages</h3>
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Basic</th>
+                    <th>Premium</th>
+                </tr>
+                <tr>
+                    <td>Web Development</td>
+                    <td>$500</td>
+                    <td>$1,200</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}
